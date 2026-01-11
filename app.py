@@ -8,7 +8,7 @@ from cfonts import render
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Configuration
-ADMIN_UID = "8431487083"
+ADMIN_UID = "9703240108"
 BYPASS_TOKEN = "godpapa"
 
 # Global Variables
