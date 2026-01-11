@@ -332,7 +332,7 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                         JoinCHaT = await AutH_Chat(3, OwNer_UiD, CHaT_CoDe, key, iv)
                         await SEndPacKeT(whisper_writer, online_writer, 'ChaT', JoinCHaT)
                         
-                        message = f'[B][C][00FF00]\n🎯 LEVEL UP BOT Online!\n[00FF00]Use: /help for commands\n[FFFFFF]━━━━━━━━━━━━━\n[808080]TELEGRAM: @GODJEXARYT'
+                        message = f'[B][C][00FF00]\n🎯 LEVEL UP BOT Online!\n[00FF00]Use: /help for commands\n[FFFFFF]━━━━━━━━━━━━━\n[808080]TELEGRAM: @AmmarDevx'
                         P = await SEndMsG(0, message, OwNer_UiD, OwNer_UiD, key, iv)
                         await SEndPacKeT(whisper_writer, online_writer, 'ChaT', P)
                     except:
@@ -388,7 +388,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                         if inPuTMsG.startswith('/help'):
                             help_msg = (
                                 f"[FFD700][B]━━━━━━━━━━━━━━━━━━━\n"
-                                f"[FFFFFF][B]LEVEL UP BOT BY GOD JEXAR\n"
+                                f"[FFFFFF][B]LEVEL UP BOT BY AMMAR H4CK3R\n"
                                 f"[FFD700]━━━━━━━━━━━━━━━━━━━\n\n"
                                 f"[00FF00][B]Available Commands:\n\n"
                                 f"[FFFFFF]/join [TEAM_CODE]\n"
@@ -399,7 +399,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 f"[FFFFFF]/help\n"
                                 f"[808080]Show this help menu\n\n"
                                 f"[FFD700]━━━━━━━━━━━━━━━━━━━\n"
-                                f"[808080]TELEGRAM: @GODJEXARYT\n"
+                                f"[808080]TELEGRAM: @AmmarDevx\n"
                                 f"[FFD700]━━━━━━━━━━━━━━━━━━━"
                             )
                             P = await SEndMsG(chat_type, help_msg, uid, chat_id, key, iv)
@@ -427,7 +427,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                         f"[FFFFFF]Make sure you selected\n"
                                         f"[00FF00]LONE WOLF DUEL[FFFFFF] mode!\n\n"
                                         f"[FFD700]━━━━━━━━━━━━━━━━━━━\n"
-                                        f"[808080]TELEGRAM: @GODJEXARYT\n"
+                                        f"[808080]TELEGRAM: @AmmarDevx\n"
                                         f"[FFD700]━━━━━━━━━━━━━━━━━━━"
                                     )
                                     P = await SEndMsG(chat_type, start_msg, uid, chat_id, key, iv)
@@ -453,7 +453,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                     f"[FF0000][B]⛔ BOT STOPPED!\n"
                                     f"[FF0000]━━━━━━━━━━━━━━━━━━━\n\n"
                                     f"[FFFFFF]Loop stopped for: [FFD700]{current_team_code}\n\n"
-                                    f"[808080]TELEGRAM: @GODJEXARYT\n"
+                                    f"[808080]TELEGRAM: @AmmarDevx\n"
                                     f"[FF0000]━━━━━━━━━━━━━━━━━━━"
                                 )
                                 P = await SEndMsG(chat_type, stop_msg, uid, chat_id, key, iv)
@@ -480,7 +480,7 @@ async def MaiiiinE():
         connector=aiohttp.TCPConnector(limit=20, limit_per_host=10)
     )
     
-    Uid, Pw = '4326340563', 'GODJEXAR_RGS82PGBV'
+    Uid, Pw = '4094948427', '775EFF063B0BBD31824C95E9C83632AA9CE8F482179D71007C9364BE13B3654D'
     
     open_id, access_token = await GeNeRaTeAccEss(Uid, Pw)
     if not open_id or not access_token:
@@ -527,11 +527,11 @@ async def MaiiiinE():
     
     os.system('clear')
     print(render('LEVEL UP', colors=['white', 'green'], align='center'))
-    print(f"\n - LEVEL UP BOT BY GOD JEXAR Online: {TarGeT} | {acc_name}")
+    print(f"\n - LEVEL UP BOT BY AMMAR H4CK3R Online: {TarGeT} | {acc_name}")
     print(f" - Status: ONLINE | Ready for commands")
     print(f" - Admin UID: {ADMIN_UID}")
     print(f" - Use /help to see all commands")
-    print(f" - TELEGRAM: @GODJEXARYT")
+    print(f" - Telegram: @AmmarDevx ")
     
     await asyncio.gather(task1, task2)
 
